@@ -20,11 +20,11 @@ This library is aimed to be used only with bucklescript to generate javascript, 
 
 * list
 
-  * [ ] Observable.from_list
+  * [x] Observable.from_list
 
 * promise
 
-  * [ ] Observable.from_promise
+  * [x] Observable.from_promise
 
 * observable
 
@@ -36,7 +36,7 @@ This library is aimed to be used only with bucklescript to generate javascript, 
 
 * periodic
 
-  * [ ] Observable.periodic
+  * [x] Observable.periodic
 
 * event
 
@@ -52,29 +52,29 @@ This library is aimed to be used only with bucklescript to generate javascript, 
 
 * empty
 
-  * [ ] Observable.empty
+  * [x] Observable.empty
 
 * never
 
-  * [ ] Observable.never
+  * [x] Observable.never
 
 * error
 
-  * [ ] Observable.error
+  * [x] Observable.error
 
 ### 🔧 Operators
 
 * map
 
-  * [ ] Observable.map
+  * [x] Observable.map
 
 * map to
 
-  * [ ] Observable.map_to
+  * [x] Observable.map_to
 
 * filter
 
-  * [ ] Observable.filter
+  * [x] Observable.filter
 
 * take
 
@@ -82,7 +82,7 @@ This library is aimed to be used only with bucklescript to generate javascript, 
 
 * drop
 
-  * [ ] Observable.drop
+  * [x] Observable.drop
 
 * last
 
@@ -90,7 +90,7 @@ This library is aimed to be used only with bucklescript to generate javascript, 
 
 * append
 
-  * [ ] Observable.append
+  * [x] Observable.append
 
 * delay
 
