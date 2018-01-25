@@ -1,0 +1,32 @@
+{
+  "name": "brook",
+  "description": "A small stream library for reasonml",
+  "version": "0.0.1-alpha",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "precommit": "lint-staged",
+    "commit": "git-cz"
+  },
+  "lint-staged": {
+    "*.re": ["refmt --in-place", "git add"],
+    "*.{json,md}": ["prettier --no-config --write", "git add"]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "keywords": ["stream", "observable", "reasonml stream", "BuckleScript"],
+  "author": "Shriyans Bhatnagar <shriyansbhatnagar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.1",
+    "prettier": "^1.10.2"
+  }
+}
